@@ -3,7 +3,6 @@ const getCSS = (variavel) => {
     return bodyStyles.getPropertyValue(variavel)
 }
 
-export {getCSS}
 const tickConfig = {
     family: getCSS('--font'),
     size: 16,
